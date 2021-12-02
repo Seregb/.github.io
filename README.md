@@ -1,1 +1,1 @@
-# .github.io
+# https://seregb.github.io/.github.io/
