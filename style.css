@@ -1,0 +1,156 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Impact;
+  /* font: normal 18px 'Impact'; */
+}
+
+#avatar {
+  height: 200px;
+  border-radius: 28px;
+  box-shadow: -13px -10px 13px 0px rgba(0,0,025);
+}
+
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+#myInfo {
+  margin-bottom: 20px;
+}
+
+.contact h3 {
+  margin-bottom: 0px;
+}
+
+
+
+div h1 {
+  margin-bottom: 0px;
+  /* letter-spacing: 5px; */
+}
+ 
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: gray;
+}
+
+.cats {
+  margin-bottom: 0px;
+}
+
+#cats {
+  font-size: 13px;
+}
+
+p > img {
+  width: 49%;
+  border: 4px solid  coral;
+  box-sizing: border-box;
+}
+
+.selection {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-plum {
+  background-color: plum; 
+}
+
+.bg-orange {
+  background-color: burlywood; 
+}
+
+.bg-khaki {
+  background-color: khaki; 
+}
+
+.workExp h3 {
+  text-align: center;
+}
+
+.workExp th, .workExp td {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.table  {
+  width: 100%;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+.message h3 {
+  text-align: center;
+}
+
+.message input, .message textarea {
+  font-size: 18px;
+}
+
+.form-group label{
+  display: block;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 5px 0 10px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  color: black;
+  outline: none;
+  font-family: inherit;
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0px;
+}
+
+.btn {
+  background: rgb(250, 135, 4) ;
+  padding: 10px 20px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+}
+
